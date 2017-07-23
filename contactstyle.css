@@ -77,12 +77,27 @@ line-height: 2;
   width:90%;
   padding:20px;
   margin:20px;
+  font-family: 'Bree Serif';
+  font-size: 18px;
 }
 #multitxt {
-  height = 5rem;
+  height : 45px;
+}
+.button {
+  font-size: 20px;
+  padding:20px;
+  margin-left:20px;
+  margin-bottom: 20px;
+  background-color: #4aaaa5;
+  color: hsla(174, 21%, 12%, 1);
+  font-weight: bold;
+  width: 165px;
+  border-radius: 25px;
+}
+.button:active{
+  background-color: grey;
 }
 .sidebar {
-
   position: fixed;
   width:28%;
   right: 0px;
