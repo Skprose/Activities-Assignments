@@ -49,6 +49,7 @@
   margin-left: 60px;
   margin-top:60px;
   margin-bottom: 20px;
+  padding: 25px;
   position: fixed;
 }
 
@@ -61,9 +62,6 @@ font-size: 18px;
 line-height: 2;
 }
 
-
-
-
 .portfolioh2{
   width:90%;
   font-size: 30px;
@@ -75,16 +73,50 @@ line-height: 2;
 
 .gallery {
   margin-left: 50px;
-  padding-left:20px;
-  width: 50%;
+  padding-left:40px;
+  padding-bottom: 20px;
+  width: 90%;
 /*  overflow: scroll;*/
 }
+
+.txt {
+  width: 100%;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+
+}
 .img {
-  width: 30%;
-  padding:10px;
-  margin:10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:85%;
+  height:150px;
+  position:relative;
 }
 
+#left1 {
+  background-image: url(./Resources/IMG_0265.JPG);
+  }
+#right1 {
+  background-image:url(./Resources/IMG_0216.JPG);
+}
+#left2 {
+  background-image: url(./Resources/summer2017.JPG);
+  }
+#right2 {
+  background-image: url(./Resources/IMG_0448.JPG);
+  }
+#left3 {
+  background-image: url(./Resources/IMG_0387.JPG);
+  }
+#right3 {
+  background-image:  url(./Resources/skywalk.JPG);
+  }
+
+/* Side bar setting */
 .sidebar {
   position: fixed;
   width:28%;
@@ -104,12 +136,13 @@ line-height: 2;
   color:#4aaaa5;
 }
 
+
 .icons {
   margin: 20px;
   padding: 10px;
 
 }
-
+/* footer settings end */
 
 footer {
   width: 100%;
